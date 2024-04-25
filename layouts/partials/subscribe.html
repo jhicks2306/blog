@@ -1,0 +1,81 @@
+<!-- layouts/partials/signup.html -->
+<style>
+    .signup-container {
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto; /* Pushes the container above the footer */
+        padding: 20px 0; /* Add some spacing above the footer */
+        background-color: #f9f9f9; /* Optional: add background color for better visibility */
+        
+    }
+
+    .signup-header {
+        color: black;
+    }
+    
+    .signup-form {
+        text-align: center;
+    }
+
+    .signup-form button:hover {
+        background-color: #ddd; /* Change background color to light grey */
+    }
+
+    .signup-form input[type="email"] {
+        width: 300px; /* Adjust the width as needed */
+        border: 2px solid #444;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    #signup-input {
+        background-color: #fff; /* Set white background color */
+    }
+
+    .signup-form button {
+        border: 2px solid #444;
+        border-radius: 5px;
+        color: #444;
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .success-message {
+        display: none;
+        margin-top: 20px;
+        font-size: 18px;
+        color: black;
+    }
+</style>
+
+<div class="signup-container">
+    <div class="signup-form ml-form-embedContainer ml-subscribe-form ml-subscribe-form-14189233" id="mlb2-14189233">
+        <h2 class="signup-header">Subscribe below</h2>
+        <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/917578/forms/119219792816113310/subscribe" method="post" id="subscribeForm" target="_blank">
+            <input id="signup-input" type="email" name="fields[email]" placeholder="Enter your email" required>
+            <button type="submit" id="submitButton">Sign Up</button>
+        </form>
+        <small id="emailHelp">Learn alongside me and receive articles straight to your inbox.</small>
+    </div>
+    <p class="success-message" id="successMessage">Thank you for signing up!</p>
+</div>
+
+<script>
+    document.getElementById('mlb2-14189233').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        // Hide input field and button
+        document.getElementById('mlb2-14189233').style.display = 'none';
+        // Display success message
+        document.getElementById('successMessage').style.display = 'block';
+    });
+</script>
+
+<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v2d8fb22bb5b3677f161552cd9e774127" type="text/javascript"></script>
+<script>
+    fetch("https://assets.mailerlite.com/jsonp/917578/forms/119219792816113310/takel")
+</script> 
