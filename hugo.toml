@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Making of a Maker'
 theme = 'PaperMod'
+publishDir = "docs"
 
 [params.homeInfoParams]
 Title = "Welcome"
