@@ -1,0 +1,52 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Making of a Maker'
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+Title = "Welcome"
+Content = """
+👋 Welcome to the **Making of a Maker** blog!
+
+-
+
+- May name is James. I'm a 33 year old guy learning to build with modern low-code development tools.
+
+- 
+
+- I am **not** a software developer by background. I spent the last 10 years working in finance, but for a long time have had a niggling feeling I would like to do something more creative.
+
+- 
+
+- I have spent longer than I care like to admit lurking on forums like [Indie Hackers](https://www.indiehackers.com/) or reading through online business success stories on [Medium](https://medium.com/).
+
+- 
+
+- I recently quit my job. So whilst I look for another, I am building skills to launch my own side project. (Details to be worked out!)
+
+- 
+
+- Here is where I will share my progress.
+
+- 
+
+- If you are a novice like me, who until now has been lurking on the forums, **subscribe below**. I'd love to be in touch with other apiring Makers. 
+
+"""
+
+[profileMode]
+  enabled = true
+  title = "ExampleSite"
+  subtitle = "This is subtitle"
+  imageUrl = "./themes/PaperMod/images/james-25.jpeg"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+[[profileMode.buttons]]
+  name = "Posts"
+  url = "posts"
+
+[[profileMode.buttons]]
+  name = "Tags"
+  url = "tags"
