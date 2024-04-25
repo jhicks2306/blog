@@ -33,20 +33,3 @@ Content = """
 - If you are a novice like me, who until now has been lurking on the forums, **subscribe below**. I'd love to be in touch with other apiring Makers. 
 
 """
-
-[profileMode]
-  enabled = true
-  title = "ExampleSite"
-  subtitle = "This is subtitle"
-  imageUrl = "./themes/PaperMod/images/james-25.jpeg"
-  imageWidth = 120
-  imageHeight = 120
-  imageTitle = "my image"
-
-[[profileMode.buttons]]
-  name = "Posts"
-  url = "posts"
-
-[[profileMode.buttons]]
-  name = "Tags"
-  url = "tags"
