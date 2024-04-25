@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://making-of-a-maker.com'
 languageCode = 'en-us'
 title = 'Making of a Maker'
 theme = 'PaperMod'
@@ -30,6 +30,6 @@ Content = """
 
 - 
 
-- If you are a novice like me, who until now has been lurking on the forums, **subscribe below**. I'd love to be in touch with other apiring Makers. 
+- If you are a novice like me, who until now has been lurking on the forums, **subscribe below**. I'd love to be in touch with other aspiring Makers. 
 
 """
