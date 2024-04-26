@@ -2,9 +2,12 @@ baseURL = 'https://making-of-a-maker.com'
 languageCode = 'en-us'
 title = 'Making of a Maker'
 theme = 'PaperMod'
+enableRobotsTXT = true
 
-# Enable SEO.
 [params]
+description = 'Blog about building low-code side projects.'
+keywords = ['Blog', 'Low-code', 'PaperMod']
+author = 'James Hicks'
 env = "production"
 
 [params.homeInfoParams]
