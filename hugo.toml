@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Making of a Maker'
 theme = 'PaperMod'
 
+# Enable SEO.
+[params]
+env = "production"
+
 [params.homeInfoParams]
 Title = "Welcome"
 Content = """
@@ -14,22 +18,18 @@ Content = """
 
 - 
 
-- I am **not** a software developer by background. I spent the last 10 years working in finance, but for a long time have had a niggling feeling I would like to do something more creative.
+- I am not a software developer by background. But I am interested and see building applications as a way to scratch my creative itch.
 
 - 
 
-- I have spent longer than I care like to admit lurking on forums like [Indie Hackers](https://www.indiehackers.com/) or reading through online business success stories on [Medium](https://medium.com/).
+- I have spent longer than I care like to admit lurking on forums like [Indie Hackers](https://www.indiehackers.com/) or reading stories about successful side projects on [Medium](https://medium.com/).
 
 - 
 
-- I recently quit my job. So whilst I look for another, I am building skills to launch my own side project. (Details to be worked out!)
+- I've decided it's time to stop observing and take action. Here is where I will share my progress.
 
 - 
 
-- Here is where I will share my progress.
-
-- 
-
-- If you are a novice like me, who until now has been lurking on the forums, **subscribe below**. I'd love to be in touch with other aspiring Makers. 
+- If you are interested in building your own low-code side project, **subscribe below**. I'd love to be in touch with other aspiring makers. 
 
 """
