@@ -2,11 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Making of a Maker</title>
-    <link>https://making-of-a-maker.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Making of a Maker</description>
     <generator>Hugo -- 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://making-of-a-maker.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Apr 2024 15:07:51 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to create and deploy your personal blog for free (beginners)</title>
+      <link>http://localhost:1313/posts/publish-hugo-blog-to-github-pages/</link>
+      <pubDate>Thu, 25 Apr 2024 15:07:51 +0100</pubDate>
+      <guid>http://localhost:1313/posts/publish-hugo-blog-to-github-pages/</guid>
+      <description>I recently spent a day or so researching the best way publish a personal blog for free.
+I wanted something fast and easy to use. But I also wanted the flexibility to customise the blog later down the line. Instant publishing platforms like Wordpress seemed too inflexible, so I looked towards other static site generators.
+I settled on using Hugo and am happy with the result. Within just a few steps, I was able to publish my blog for free on GitHub Pages.</description>
+    </item>
   </channel>
 </rss>
