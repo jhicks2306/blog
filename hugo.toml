@@ -36,3 +36,24 @@ Content = """
 - If you are interested in building your own low-code side project, **subscribe below**. I'd love to be in touch with other aspiring makers. 
 
 """
+
+[params.profileMode]
+enabled = true
+subtitle = "Learning to launch a low-code side project. Sharing my progress."
+imageUrl = "/images/james-profile.png"
+imageWidth = 200
+imageHeight = 200
+
+[[params.profileMode.buttons]]
+  name = "Go to posts"
+  url = "posts"
+
+# Create a static folder
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+# Add images directory to static folder.
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
