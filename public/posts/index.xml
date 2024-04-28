@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Making of a Maker</title>
-    <link>https://making-of-a-maker.com/posts/</link>
+    <link>https://jameshicks.online/posts/</link>
     <description>Recent content in Posts on Making of a Maker</description>
     <generator>Hugo -- 0.125.3</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://making-of-a-maker.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jameshicks.online/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
