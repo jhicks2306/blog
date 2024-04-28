@@ -1,1 +1,5 @@
+# Ignore the images/ directory
 images/
+
+# Except for the public/images directory
+!public/images/
