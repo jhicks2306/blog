@@ -1,6 +1,6 @@
 baseURL = 'https://jameshicks.online'
 languageCode = 'en-us'
-title = 'Making of a Maker'
+title = 'James Hicks'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
@@ -39,7 +39,8 @@ Content = """
 
 [params.profileMode]
 enabled = true
-subtitle = "Learning to launch a low-code side project. Sharing my progress."
+title =  "About"
+subtitle = "Notes on learning to low-code side hustle."
 imageUrl = "/images/james-profile.png"
 imageWidth = 200
 imageHeight = 200
